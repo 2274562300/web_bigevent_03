@@ -45,7 +45,7 @@ function renderAvater(user){
     if(user.user_pic !== null){
         //有头像
         $(".layui-nav-img").show().attr("src",user.user_pic);
-        $(".text-avater").hide();
+        $(".text-avatar").hide();
     }else{
         //没有头像
         $(".layui-nav-img").hide();
